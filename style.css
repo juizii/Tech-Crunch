@@ -1,0 +1,513 @@
+* {
+  box-sizing: border-box;
+  font-family: "cabin", Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  float: left;
+}
+
+nav li {
+  display: inline-block;
+  color: rgb(68, 68, 68);
+  padding-right: 5px;
+  font-size: 25px;
+}
+nav ul {
+  margin: 0;
+  float: left;
+}
+
+.hnav {
+  width: 30%;
+  float: left;
+}
+
+.hnav h3 a {
+  color: #45a808;
+}
+.hnav a {
+  text-decoration: none;
+  color: black;
+}
+header h3 {
+  color: lightgray;
+  float: left;
+  margin: 10px auto;
+  margin-left: 40px;
+  font-size: 20px;
+}
+header img {
+  width: 200px;
+  float: left;
+}
+
+.headerRight {
+  float: right;
+  width: 30%;
+}
+.borg {
+  display: none;
+}
+
+.header h3,
+.header a {
+  display: inline;
+}
+i {
+  font-size: 30px;
+  background: lightgray;
+  margin-top: 10px;
+  padding: 2px;
+  color: rgb(56, 56, 56);
+}
+
+/*FLex*/
+
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.search i {
+  margin: 0;
+}
+
+.headerRight h3 {
+  margin: 10px;
+}
+
+/* BANNER */
+
+.banner {
+  width: 100%;
+  float: left;
+  background: #0f4a00;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.banner h3,
+.banner p {
+  display: inline;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.banner a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+}
+
+.leftMiddle {
+  width: 70%;
+  float: left;
+}
+
+.leftMiddle h1 {
+  font-size: 40px;
+  margin: 15px 15px 0 15px;
+}
+
+.leftMiddle span {
+  color: #45a808;
+}
+
+.leftMiddle img {
+  width: 95%;
+  margin: 15px;
+}
+
+.leftMiddle p {
+  color: gray;
+  font-size: 2rem;
+  margin: 15px;
+  margin-top: 0;
+}
+
+.fStories {
+  width: 30%;
+  float: left;
+}
+
+.fStories section {
+  width: 100%;
+}
+
+.fStories img {
+  width: 50%;
+  float: left;
+  margin: 5px;
+}
+
+.featured {
+  width: 100%;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.featured section {
+  width: 100%;
+  height: 122px;
+}
+
+.rightMiddle {
+  width: 30%;
+
+  float: left;
+  background: #ececec;
+}
+
+.tip {
+  width: 100%;
+  float: left;
+}
+.tip h2 {
+  font-size: 3.5rem;
+  margin: 35px;
+  color: gray;
+  border-top: 8px solid rgb(180, 180, 180);
+  border-bottom: 8px solid rgb(180, 180, 180);
+}
+
+.tip a {
+  text-decoration: none;
+  color: #4baa0d;
+}
+
+.newsletter {
+  width: 95%;
+  float: left;
+  background: white;
+  margin: 0 12px;
+}
+
+.newsletter h3 {
+  background: #0f4a00;
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.sub {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.6rem;
+}
+
+.sub section {
+  border-bottom: 1px solid gray;
+}
+
+.sub input {
+  float: left;
+}
+
+.sub h4 {
+  margin-left: 0px;
+}
+.email {
+  width: 80%;
+  margin: 10px auto;
+  border: none;
+}
+
+.email input {
+  padding: 5px 50px;
+}
+
+.email button {
+  background: #0a9600;
+  color: white;
+  border: none;
+  padding: 7px 45px;
+}
+
+.email a {
+  margin-left: 30%;
+  text-decoration: none;
+  color: black;
+  margin-top: 40px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1285px) {
+  h1 {
+    width: 100%;
+  }
+  .headerRight i {
+    display: none;
+  }
+  .fStories {
+    width: 80%;
+    float: left;
+  }
+  .fstories section {
+    width: 60%;
+  }
+  .featured section {
+    width: 100%;
+  }
+  .featured {
+    width: 50%;
+  }
+  .featured a {
+    float: left;
+  }
+
+  .featured span {
+    display: none;
+  }
+  .leftMiddle img {
+    width: 137%;
+  }
+  .middle p {
+    width: 100%;
+    margin: 10px;
+  }
+  .fStories img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1796px) {
+  .email {
+    width: 83%;
+  }
+}
+
+@media screen and (max-width: 1734px) {
+  .email {
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 1659px) {
+  .email {
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 1606px) {
+  .email {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 1482px) {
+  .email {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1454px) {
+  .email {
+    width: 101%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .email {
+    width: 103%;
+  }
+}
+
+@media screen and (max-width: 1414px) {
+  .email {
+    width: 105%;
+  }
+}
+
+@media screen and (max-width: 1389px) {
+  .email {
+    display: none;
+  }
+  .headerRight {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 1044px) {
+  .leftMiddle h1 {
+    font-size: 31px;
+  }
+}
+
+@media screen and (max-width: 1027px) {
+  h1 {
+    width: 116%;
+  }
+
+  .leftMiddle {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  h1 {
+    width: 200%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  header li,
+  header h3 {
+    display: none;
+  }
+  .featured {
+    width: 100%;
+  }
+  .middle {
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .tip {
+    display: none;
+  }
+
+  .borg {
+    display: block;
+  }
+
+  .headerRight a,
+  .headerRight h3 {
+    display: none;
+  }
+  .middle section {
+    width: 100%;
+  }
+  .middle a,
+  .middle span {
+    margin-top: 20px;
+  }
+
+  .middle img {
+    width: 100%;
+    margin: 10px;
+  }
+  .leftMiddle {
+    width: 100%;
+  }
+
+  .featured section {
+    width: 100%;
+  }
+  .fStories {
+    width: 100%;
+    float: left;
+  }
+  .fstories section {
+    width: 100%;
+  }
+
+  .newsletter {
+    display: block;
+    width: 100%;
+  }
+  .leftMiddle section {
+    width: 100%;
+  }
+
+  .leftMiddle h1 {
+    font-size: 3rem;
+  }
+
+  .rightMiddle {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .banner {
+    font-size: 1.5rem;
+  }
+
+  .middle p {
+    width: 100;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    font-size: 1.5rem;
+  }
+  .banner p {
+    display: none;
+  }
+  .borg {
+    display: block;
+  }
+
+  header li {
+    display: none;
+  }
+
+  .middle {
+    width: 100%;
+  }
+  .middle a,
+  .middle span {
+    margin-top: 20px;
+  }
+
+  .middle img {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .featured section {
+    width: 100%;
+  }
+  .leftMiddle h1 {
+    font-size: 3rem;
+  }
+  .fStories {
+    width: 100%;
+    float: left;
+  }
+  .fstories section {
+    width: 60%;
+  }
+
+  .tip {
+    display: none;
+  }
+
+  .middle p {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .headerRight {
+    display: none;
+  }
+
+  .hnav h3 {
+    display: none;
+  }
+}
